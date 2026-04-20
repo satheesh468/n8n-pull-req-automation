@@ -11,6 +11,6 @@ public class Sample {
     public static void main(String[] args) {
         System.out.println(greetUser("Satheesh"));
         int result = addNumbers(10, 20);
-        System.out.println("Addition Result: " + result)
+        System.out.println("Addition Result: " + result);
     }
 }
