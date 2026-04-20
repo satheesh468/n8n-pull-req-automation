@@ -1,3 +1,10 @@
-I love my india
+def greet_user(name):
+    return f"Hello, {name}! Welcome to GitHub Pull Request demo."
 
-I have done changes to this file.
+def add_numbers(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print(greet_user("Satheesh"))
+    result = add_numbers(10, 20)
+    print(f"Addition Result: {result}")
